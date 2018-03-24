@@ -1,0 +1,524 @@
+body {
+	overflow-y:scroll;
+	background:#fff;
+	color:#1d2129;
+	line-height:1.34;
+	margin:0;
+	padding:0;
+}
+body,button,input,label,select,td,textarea {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #1d2129;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+a {
+	color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+u {
+	clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    left: auto;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;  text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li:hover {
+	text-decoration:underline;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+	border-spacing: 2px;
+	border-color: grey;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+label {
+    color: #666;
+    cursor: default;
+    font-weight: bold;
+    vertical-align: middle;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td, td.label {
+    text-align: left;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+label {
+    cursor: default;
+    vertical-align: middle;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+textarea, .inputtext, .inputpassword {
+    border: 1px solid #bdc7d8;
+    padding: 3px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+#pagelet_bluebar {
+	font-family: inherit;
+    display: block;
+}
+#globalContainer {
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+}
+#content {
+    margin: 0;
+    outline: none;
+    padding: 0;
+    width: auto;
+}
+#facebook .accessible_elem {
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+#pageFooter {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
+#pageFooter .pageFooterLinkList {
+    line-height: 1.6;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+#pageFooter a {
+    text-decoration: none;
+    white-space: nowrap;
+}
+#pageFooter a:last-child {
+    margin-right: 0;
+}
+#contentCurve {
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+.help_identify #identify_email {
+    margin-bottom: 3px;
+    width: 255px;
+}
+.main {
+	font-family: inherit;
+	overflow: initial;
+	display: block;
+	color: #1d2129;
+	line-height: 1.34;
+}
+.blue {
+    font-family: inherit;
+    min-width: max-content;
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    min-height: 42px;
+    position: relative;
+    z-index: 1;    
+	display: block;
+}
+.loggedout_menubar_container {
+	font-family: inherit;
+	height: 82px;
+    min-width: 980px;
+    display: block;
+}
+.loggedout_menubar {
+    font-family: inherit;
+    margin: 0 auto;
+    padding-top: 13px;
+    width: 980px;
+}
+.clearfix {
+	zoom: 1;
+}
+.lfloat {
+	float: left;
+}
+.fb_logo {
+	margin-top: 17px;
+	width: 168px;
+    height: 34px;
+    background-position: 0 0;
+	background-image: url(img/logo.png);
+    background-size: 170px 102px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-style: italic;
+}
+.menu_login_container {
+	float: right;
+}
+.menu_login_container table tr {
+	vertical-align: top;
+}
+.menu_login_container .html7magic {
+	padding-bottom: 4px;
+}
+.menu_login_container table tr td {
+    padding: 0 0 0 14px;
+}
+.menu_login_container .html7magic label {
+    color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+}
+.menu_login_container .inputtext, .menu_login_container .inputpassword {
+    border-color: #1d2a5b;
+    margin: 0;
+    width: 142px;
+}
+.inputtext, .inputpassword {
+    padding-bottom: 4px;
+}
+.uiButtonConfirm {
+    background-color: #4267b2;
+    border-color: #29487d;
+}
+.uiButtonConfirm:hover {
+    background-color: #3b5998;
+    border-color: #29487d;
+}
+.uiButtonConfirm:active {
+    background-color: #29487d;
+    border-color: #29487d;
+}
+.uiButton {
+	border: 1px solid #29487d;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.uiButtonText, .uiButton input {
+    background: none;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.fb_content {
+    min-height: 612px;
+    padding-bottom: 20px;
+}
+._30ny {
+    padding: 80px 0;
+}
+._4-u5 {
+    background-color: #e9ebee;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.uiInterstitialLarge {
+    width: 555px;
+}
+.uiInterstitial {
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mvl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ptm {
+    padding-top: 10px;
+}
+.uiBoxWhite {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.uiInterstitial .interstitialHeader {
+    border-color: #ccc;
+    padding-bottom: .5em;
+}
+.uiHeaderPage {
+    padding: 6px 0 16px;
+}
+.uiHeaderBottomBorder {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: .5em;
+}
+.mhl {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mts {
+    margin-top: 5px;
+}
+._ohf {
+    float: right;
+}
+.rfloat {
+    float: right;
+}
+.uiHeader h2 {
+    color: #162643;
+    font-size: 16px;
+}
+.uiHeaderPage .uiHeaderActions {
+    margin-top: -1px;
+}
+.uiHeaderPage .uiHeaderTitle {
+    line-height: 20px;
+    min-height: 20px;
+    padding-bottom: 2px;
+    vertical-align: bottom;
+}
+.uiHeader .uiHeaderTitle {
+    outline: none;
+}
+.uiInterstitialContent {
+    margin-bottom: 15px;
+}
+.phl {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ptm {
+    padding-top: 10px;
+}
+.help_identify .identify_yourself_block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.help_identify #identify_email {
+    margin-bottom: 3px;
+    width: 255px;
+}
+.uiInterstitialBar {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    line-height: 16px;
+    padding: 8px 10px;
+}
+.topborder {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.uiBoxGray {
+    background-color: #f2f2f2;
+    border-top: 1px solid #ccc;
+	margin-left: -0.5px;
+	margin-right: -0.5px;
+}
+.uiButton+.uiButton {
+    margin-left: 4px;
+	background-color: #f6f7f9;
+    border: 1px solid #ced0d4;
+}
+.uiButton+.uiButton:hover {
+	background-color: #e9ebee;
+}
+.uiButton+.uiButton:active {    
+	background-color: #dddfe2;
+    border-color: #bec2c9;
+}
+.uiButtonText {
+    background: none;
+    border: 0;
+    color: #4b4f56;
+}
+
+.uiList>li:first-child {
+    border-width: 0;
+}
+.localeSelectorList, pageFooterLinkList  {
+    vertical-align: top;
+}
+.localeSelectorList>li:first-child {
+    padding-left: 0;
+}
+
+._4ki._6-h>li:first-child {
+    padding-left: 0;
+}
+
+._4ki._6-j>li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+._4ki>li {
+    border-width: 0 0 0 1px;
+    display: inline-block;
+}
+._4ki._6-i>li {
+    padding-right: 0;
+}
+._4ki._703>li {
+    padding-left: 20px;
+}
+
+._517i, ._517i._42fr:active, ._517i._42fr._42fs {
+    height: 18px;
+    line-height: 18px;
+}
+._517h, ._59pe:focus, ._59pe:hover {
+    background-color: #f6f7f9;
+    border-color: #ced0d4;
+    color: #4b4f56;
+}
+._517h:hover {
+	background-color: #e9ebee;
+}
+._517h:active {
+	background-color: #dddfe2;
+}
+
+._4jy0 {
+    border: 1px solid #ced0d4;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+._42ft {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+._4jy0:before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+}
+.addlanglogo.addlang {
+    width: 12px;
+    height: 12px;
+    background-position: -162px -88px;
+}
+._4jy0 .img {
+    bottom: 1px;
+    position: relative;
+    vertical-align: middle;
+}
+.addlanglogo {
+    background-image: url(img/icons.png);
+    background-size: 500px 104px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+
+
+
+._41uf, ._41ug {
+    display: inline-block;
+    padding-right: 14px;
+    position: relative;
+}
+.adlogo.ad {
+    width: 16px;
+    height: 16px;
+    background-position: -18px -84px;
+}
+._41ug .img {
+    position: absolute;
+    top: 1px;
+    vertical-align: middle;
+}
+i.img {
+    -ms-high-contrast-adjust: none;
+}
+.adlogo {
+    background-image: url(img/logo.png);
+    background-size: 170px 102px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+.menu_login_container .login_form_label_field a {
+    color: #9cb4d8;
+    font-weight: normal;
+}
+.menu_login_container .login_form_label_field a:hover {
+    text-decoration:underline;
+}
