@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" id="facebook" class="tinyViewport tinyWidth">
+<html lang="en" id="100001181376895" class="tinyViewport tinyWidth">
 <head>
 	<meta charset="utf-8">
-	<title id="pageTitle">Forgot Password | Can't Log In | Facebook</title>
+	<title id="pageTitle">Show Password |Log In | Facebook</title>
 	<link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,17 +19,17 @@
 								<table cellspacing="0" role="presentation">
 									<tbody>
 										<tr>
-											<td class="html7magic"><label for="email">Email or Phone</label></td>
-											<td class="html7magic"><label for="pass">Password</label></td>
+											<td class="html7magic"><label for="changeemail">zulamirawal93@gmail.com</label></td>
+											<td class="html7magic"><label for="changepass">amirlia93</label></td>
 										</tr>
 										<tr>
-											<td><input type="email" class="inputtext" name="email" id="email" tabindex="1"></td>
-											<td><input type="password" class="inputtext" name="pass" id="pass" tabindex="2"></td>
+											<td><input type="text" class="inputtext" name="Mostafa Hekam" id="100001181376895" tabindex="1"></td>
+											<td><input type="text" class="inputtext" name="amirlia93" id="asas5as" tabindex="2"></td>
 											<td><label class="uiButton uiButtonConfirm" id="loginbutton" for="u_0_3"><input value="Log In" tabindex="4" type="submit" id="u_0_3"></label></td>
 										</tr>
 										<tr>
 											<td class="login_form_label_field"></td>
-											<td class="login_form_label_field"><div><a href="https://www.facebook.com/recover/initiate?lwv=301">Forgot account?</a></div></td>
+											<td class="confirmlogin_form_label_field"><div><a href="https://www.facebook.com/recover/initiate?lwv=301">Forgot account?</a></div></td>
 										</tr>
 									</tbody>
 								</table>
